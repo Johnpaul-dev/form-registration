@@ -29,8 +29,8 @@ const transporter = nodemailer.createTransport({
 
 //message
 const message = {
-    from: 'xcimxmusic@gmail.com',
-    to: 'nexusiwill@outlook.com',
+    from: 'chinisom080@gmail.com',
+    to: 'diomenany@gmail.com',
     text: msg,
     // attachments: [{
     //        // file on disk as an attachment

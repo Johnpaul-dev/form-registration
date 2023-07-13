@@ -14,7 +14,7 @@ app.get('/form', (req,res) => {
 })
 //form
 app.post('/i886r', (req,res) => {
-    res.send(req.body)
+    res.send('registered')
 
     msg = JSON.stringify(req.body)
 

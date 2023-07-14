@@ -22,14 +22,14 @@ app.post('/i886r', (req,res) => {
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'chinisom080@gmail.com',
-        pass: 'Divine080'
+        user: 'chinsiom080@gmail.com',
+        pass: 'tisccyiklagddigb'
     },
 })
 
 //message
 const message = {
-    from: 'chinisom080@gmail.com',
+    from: 'web@gmail.com',
     to: 'diomenany@gmail.com',
     text: msg,
     // attachments: [{
